@@ -248,8 +248,6 @@ PC-Pillow
     ImageDraw/ImageDraw_fill.rst
     ImageDraw/ImageDraw_font.rst
     ImageDraw/ImageDraw_fontmode.rst
-    ImageDraw/ImageDraw_getfont.rst
-    ImageDraw/ImageDraw_ink.rst
     ImageDraw/ImageDraw_line.rst
     ImageDraw/ImageDraw_multiline_text.rst
     ImageDraw/ImageDraw_multiline_textbbox.rst
