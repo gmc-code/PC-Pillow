@@ -13,7 +13,8 @@ Rounded rectangle
 
 .. py:function:: ImageDraw.rounded_rectangle(xy, radius=0, fill=None, outline=None, width=1)
 
-    | **xy** - Two points to define the bounding box. Sequence of either [(x0, y0), (x1, y1)] or [x0, y0, x1, y1]. The bounding box is inclusive of both endpoints.
+    | **xy** - Two points to define the bounding box. 
+    | The bounding box is a sequence of either [(x0, y0), (x1, y1)] or [x0, y0, x1, y1]. The bounding box is inclusive of both endpoints.
     | **radius** - Radius of the corners.
     | **fill** - Color to use for the fill.
     | **outline** - Color to use for the outline.

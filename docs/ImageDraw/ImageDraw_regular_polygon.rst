@@ -39,7 +39,7 @@ method to draw a regular polygon inscribed in bounding_circle, with n_sides, and
     im.save("ImageDraw/ImageDraw_regular_polygon.png")
 
 
-.. image:: images/ImageDraw_regular_polygon.jpg
+.. image:: images/ImageDraw_regular_polygon.png
     :scale: 50%
     :align: center
 
