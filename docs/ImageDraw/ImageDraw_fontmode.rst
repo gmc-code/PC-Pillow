@@ -6,29 +6,31 @@ ImageDraw fontmode
 
 ----
 
-Draw
+Fontmode
 ----------------------
 
-| Use the ``ImageDraw.Draw(im, mode=None)`` method to create  a new draw object that can be used to draw in the given image, modifying the image, **in place**.
-| **mode** - Optional mode to use for color values. For RGB images, this argument can be RGB or RGBA (to blend the drawing into the image). For all other modes, this argument must be the same as the image mode. If omitted, the mode defaults to the mode of the image.
+| Use the ``ImageDraw.fontmode`` attribute to set or return the current font drawing mode. 
+| Set to "1" to disable antialiasing or "L" to enable antialiasing.
 
-| The code below draws a blue rectangle on a new white image.
-| Firstly, a new image, ``im``, is made: ``im = Image.new('RGB', (256, 256), "white")``
-| The image, im, is passed into the Draw method: ``drw = ImageDraw.Draw(im, 'RGB')``.
-| Then a rectangle is drawn.
 | Then the image is saved.
 
 .. code-block:: python
 
-    from PIL import Image, ImageDraw
+    from PIL import Image, ImageDraw, ImageFont
 
-    im = Image.new('RGB', (256, 256), "white")
-    drw = ImageDraw.Draw(im, 'RGB')
+    fnt = ImageFont.truetype("C:/Windows/Fonts/Segoeui.ttf", 72)
+    with Image.open("test_images/shapes.jpg") as im:
+        drw = ImageDraw.Draw(im)
+        print(drw.fontmode)  # L
+        text = "Shapes"
+        drw.text((2, 0), text=text, font=fnt, fill=(0, 0, 255))
+        drw.fontmode = "I"
+        print(drw.fontmode)  # I
+        drw.text((2, 100), text=text, font=fnt, fill=(0, 0, 255))
+        # im.save("ImageDraw/ImageDraw_fontmode.png")
+        im.show()
 
-    drw.rectangle((20, 40, 236, 216), fill ="blue")
-    im.save("ImageDraw/ImageDraw_draw.jpg")
 
-
-.. image:: images/ImageDraw_draw.jpg
+.. image:: images/ImageDraw_fontmode.png
     :scale: 50%
     :align: center

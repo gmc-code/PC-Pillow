@@ -9,7 +9,7 @@ ImageDraw font
 Font
 ----------------------
 
-| Use the ``ImageDraw.font = ImageFont.truetype(font)`` method to set the draw font.
+| Use the ``ImageDraw.font = ImageFont.truetype(font)`` attribute to set the draw font.
 
 | The code below sets the font for the drawing object: 
 | ``drw.font = ImageFont.truetype("C:/Windows/Fonts/Segoeui.ttf", 24)``
