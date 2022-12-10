@@ -6,7 +6,6 @@ ImageDraw shape
 
 ----
 
-
 Shape
 ----------------------
 
