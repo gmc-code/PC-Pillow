@@ -33,6 +33,6 @@ Floodfill
         im.save("ImageDraw/ImageDraw_floodfill.jpg")
 
 
-.. image:: images/ImageDraw_compare_floodfill.jpg
+.. image:: images/ImageDraw_compare_floodfill.png
     :scale: 50%
     :align: center
