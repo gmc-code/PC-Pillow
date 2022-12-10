@@ -240,12 +240,14 @@ PC-Pillow
     :numbered:
 
     ImageDraw/ImageDraw_introduction.rst
-    ImageDraw/ImageDraw_floodfill.rst
+    
     ImageDraw/ImageDraw_arc.rst
     ImageDraw/ImageDraw_bitmap.rst
     ImageDraw/ImageDraw_chord.rst
+    ImageDraw/ImageDraw_draw.rst
     ImageDraw/ImageDraw_ellipse.rst
     ImageDraw/ImageDraw_fill.rst
+    ImageDraw/ImageDraw_floodfill.rst
     ImageDraw/ImageDraw_font.rst
     ImageDraw/ImageDraw_fontmode.rst
     ImageDraw/ImageDraw_line.rst

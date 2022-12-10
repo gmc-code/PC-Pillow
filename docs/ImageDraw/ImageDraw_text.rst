@@ -9,7 +9,7 @@ ImageDraw text
 Text
 ----------------------
 
-| Use the ImageDraw.text method to draw the string at the given position.
+| Use the ImageDraw.text() method to draw the string at the given position.
 
 .. py:function:: ImageDraw.text(xy, text, fill=None, font=None, anchor=None, spacing=4, align='left', direction=None, features=None, language=None, stroke_width=0, stroke_fill=None, embedded_color=False)
 
