@@ -58,12 +58,6 @@ Drawing
     :align: center
 
 | 
-| ImageDraw.multiline_textbbox
-.. image:: images/ImageDraw_multiline_textbbox.png
-    :scale: 50%
-    :align: center
-
-| 
 | ImageDraw.pieslice
 .. image:: images/ImageDraw_pieslice.png
     :scale: 50%

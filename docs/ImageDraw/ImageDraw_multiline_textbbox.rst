@@ -37,11 +37,6 @@ Multiline_textbbox
     with Image.open("test_images/shapes.jpg") as im:
         drw = ImageDraw.Draw(im)
         text = "Shapes consist of \n4 different shapes \npasted into \n4 regions"
-        drw.multiline_textbbox((2, 0), text=text, font=fnt)
-        # im.show()
-        im.save("ImageDraw/ImageDraw_multiline_textbbox.png")
-        
-
-.. image:: images/ImageDraw_multiline_textbbox.png
-    :scale: 50%
-    :align: center
+        ml_textbbox = drw.multiline_textbbox((2, 0), text=text, font=fnt)
+        print(ml_textbbox)  # (2, 11, 265, 159)
+            
