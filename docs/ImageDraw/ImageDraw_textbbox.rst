@@ -7,8 +7,7 @@ ImageDraw textbbox
 
 ----
 
-Draw
-Rectangle
+Textbbox
 ----------------------
 
 | Use the ``ImageDraw.textbbox(xy, text, font=None, anchor=None, spacing=4, align='left', direction=None, features=None, language=None, stroke_width=0, embedded_color=False)`` method to return the bounding box (left, top, right, bottom, in pixels) of given text relative to q given anchor when rendered in TrueType font.
