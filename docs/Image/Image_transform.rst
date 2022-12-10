@@ -530,18 +530,19 @@ Transform.MESH
         # cropx, cropy = 32, 32
         # box = (cropx, cropy, im.width - cropx, im.height - cropy)
         # im_new = im_new.crop(box)
-        im_new.save("image/transform_mesh0.png")
-        im_new.show()
 
+        im_new.save("image/transform_mesh0.png")
+        
         mesh_data = WaveDeformer(gridspace=10, sin_period_factor=40, x_dir=True, y_dir=True).getmesh(im)
         im_new = im.transform((256, 256), Image.Transform.MESH, data=mesh_data)
+        # im_new.show()
         im_new.save("image/transform_mesh1.png")
-        im_new.show()
 
         mesh_data = BarrellDeformer(gridspace=20, k_1=0.2, k_2=0.05).getmesh(im)
         im_new = im.transform((256, 256), Image.Transform.MESH, data=mesh_data)
+        # im_new.show()
         im_new.save("image/transform_mesh2.png")
-        im_new.show()
+        
 
 .. image:: images/compare_transform_mesh.png
     :scale: 50%

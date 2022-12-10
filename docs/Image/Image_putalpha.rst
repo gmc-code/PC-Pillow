@@ -47,7 +47,7 @@ Putalpha radial gradient
     with Image.open("test_images/rhino.jpg") as im:
         im_alpha = ImageChops.invert(Image.radial_gradient("L"))
         im.putalpha(im_alpha)
-        im.show()
+        # im.show()
         im.save("Image/Image_putalpha_radial.png")
     
 

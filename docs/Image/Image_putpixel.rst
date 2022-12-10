@@ -64,9 +64,8 @@ Putalpha pixel level
         for x, y in xy_vals:
             im.putpixel((x, y), pix_col )
 
+        # im.show()
         im.save("image/Image_putpixel.png")
-        im.show()
-
     
 
 .. image:: images/compare_putpixel.png

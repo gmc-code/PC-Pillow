@@ -12,7 +12,7 @@ Open file in the same folder
 
 | The code below opens an image and shows it.
 | Use **with** to automatically close the file resource.
-| To refer to the image object as **im** use **as im**.
+| To refer to the image object as **im**, use **as im**.
 | The file below is assumed to be in the same folder as the python script.
 
 .. code-block:: python

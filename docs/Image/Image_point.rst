@@ -27,10 +27,10 @@ Point
 
     with Image.open("test_images/rhino.jpg") as im:
         im1 = im.point(func_light)
-        im1.show()
+        # im1.show()
         im1.save("Image/Image_point_light.png")
         im2 = im.point(func_inv)
-        im2.show()
+        # im2.show()
         im2.save("Image/Image_point_inv.png")
 
     

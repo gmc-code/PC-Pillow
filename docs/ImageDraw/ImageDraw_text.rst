@@ -42,7 +42,7 @@ Text
         text = "Shapes"
         drw.text((2, 0), text=text, font=font, fill=(0, 0, 255))
         im.save("ImageDraw/ImageDraw_text.png")
-        im.show()
+        # im.show()
 
 .. image:: images/ImageDraw_text.png
     :scale: 50%

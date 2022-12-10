@@ -35,7 +35,7 @@ method to draw a regular polygon inscribed in bounding_circle, with n_sides, and
 
     for i in range(0, 120, 20)
         drw.regular_polygon((128, 128, 120), 3, rotation=i, fill=(255, i, 0, 128), outline=(0, 0, 255, 128))
-    im.show()
+    # im.show()
     im.save("ImageDraw/ImageDraw_regular_polygon.png")
 
 

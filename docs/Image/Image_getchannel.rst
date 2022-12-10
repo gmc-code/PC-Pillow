@@ -19,13 +19,13 @@ Getchannel
 
     with Image.open("test_images/alph_blocks.png") as im:
         im1 = im.getchannel("R")
-        im1.show()
+        # im1.show()
         im1.save("Image/Image_channel_R.png")
         im1 = im.getchannel("G")
-        im1.show()
+        # im1.show()
         im1.save("Image/Image_channel_G.png")
         im1 = im.getchannel("B")
-        im1.show()
+        # im1.show()
         im1.save("Image/Image_channel_B.png")
     
 

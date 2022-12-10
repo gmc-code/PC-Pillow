@@ -25,12 +25,12 @@ Bitmap
             
             img2_drw = ImageDraw.Draw(img2)
             img2_drw.bitmap((0,0), img1_bitmap)   
-            img2.show()
+            # img2.show()
             img2.save("ImageDraw/ImageDraw_bitmap.png")
 
             img2_drw = ImageDraw.Draw(img2)
             img2_drw.bitmap((0,0), img1_bitmap, fill=(255,0,0))   
-            img2.show()
+            # img2.show()
             img2.save("ImageDraw/ImageDraw_bitmap_red.png")
 
 

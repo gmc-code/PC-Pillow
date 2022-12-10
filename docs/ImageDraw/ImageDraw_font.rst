@@ -23,8 +23,9 @@ Font
         drw = ImageDraw.Draw(im)
         text = "Shapes"
         drw.text((2, 0), text=text, font=fnt, fill=(0, 0, 255))
+        # im.show()
         im.save("ImageDraw/ImageDraw_font1.png")
-        im.show()
+        
 
 .. image:: images/ImageDraw_font1.png
     :scale: 50%
@@ -43,8 +44,8 @@ Font
         text = "Shapes"
         drw.font = ImageFont.truetype("C:/Windows/Fonts/Segoeui.ttf", 48)
         drw.text((2, 0), text=text, fill=(0, 0, 255))
+        # im.show()
         im.save("ImageDraw/ImageDraw_font2.png")
-        im.show()
 
 
 .. image:: images/ImageDraw_font2.png
@@ -66,8 +67,8 @@ Font
         drw = ImageDraw.Draw(im)
         text = "Shapes"
         drw.text((2, 0), text=text, fill=(0, 0, 255))
+        # im.show()
         im.save("ImageDraw/ImageDraw_font3.png")
-        im.show()
 
 
 .. image:: images/ImageDraw_font3.png

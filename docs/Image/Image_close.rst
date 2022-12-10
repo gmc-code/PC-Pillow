@@ -21,7 +21,7 @@ Close
 
     im = Image.open('shapes_jpgs/x.jpg')
     im.draft("L", (im.width // 2, im.height // 2))
-    im.show()
+    # im.show()
     im.save("shapes_jpgs/box_half_grey.png")
     im.close()
 

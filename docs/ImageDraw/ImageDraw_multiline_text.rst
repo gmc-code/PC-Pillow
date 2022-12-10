@@ -39,8 +39,8 @@ Multiline_text
         drw = ImageDraw.Draw(im)
         text = "Shapes consist of \n4 different shapes \npasted into \n4 regions"
         drw.multiline_text((2, 0), text=text, font=fnt, fill=(0, 0, 255))
+        # im.show()
         im.save("ImageDraw/ImageDraw_multiline_text.png")
-        im.show()
 
 
 .. image:: images/ImageDraw_multiline_text.png

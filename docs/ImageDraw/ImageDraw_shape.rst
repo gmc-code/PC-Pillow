@@ -54,8 +54,7 @@ Shape
     #     s.line(polyg[i][0], polyg[i][1])
 
     drw.shape(s, outline="blue")
-    im.show()
-
+    # im.show()
     im.save("ImageDraw/ImageDraw_shape.jpg")
 
 
