@@ -37,7 +37,7 @@ Multiline_textbbox
     with Image.open("test_images/shapes.jpg") as im:
         drw = ImageDraw.Draw(im)
         text = "Shapes consist of \n4 different shapes \npasted into \n4 regions"
-        drw.multiline_textbbox((2, 0), text=text, font=fnt, fill=(0, 0, 255))
+        drw.multiline_textbbox((2, 0), text=text, font=fnt)
         im.save("ImageDraw/ImageDraw_multiline_textbbox.png")
         im.show()
 
