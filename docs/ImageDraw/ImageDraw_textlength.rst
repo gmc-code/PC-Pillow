@@ -30,8 +30,7 @@ Textlength
     fnt = ImageFont.truetype("C:/Windows/Fonts/Segoeui.ttf", 24)
     with Image.open("test_images/shapes.jpg") as im:
         drw = ImageDraw.Draw(im)
-        txt = "Shapes"
-        textlength = drw.textbbox(xy, txt, font=fnt)
+        text = "Shapes"
+        textlength = drw.textlength(text, fnt)
         print(textlength)
-
 
