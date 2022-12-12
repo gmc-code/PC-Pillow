@@ -9,7 +9,7 @@ ImageDraw introduction
 
 | The ImageDraw module provides simple 2D graphics for Image objects. You can use this module to create new images, annotate or retouch existing images, and to generate graphics on the fly.
 
-| Below is a list of ImageDraw methods.
+| Below is a list of ImageDraw methods. 
 
 ----
 
