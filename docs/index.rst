@@ -156,6 +156,7 @@ PC-Pillow
     ImageFilter/ImageFilter_Sharpen.rst
     ImageFilter/ImageFilter_UnsharpMask.rst
     ImageFilter/ImageFilter_Detail.rst
+    ImageFilter/ImageFilter_Contour.rst
     ImageFilter/ImageFilter_Edge_Enhance.rst
     ImageFilter/ImageFilter_Edge_Enhance_More.rst
     ImageFilter/ImageFilter_Emboss.rst
