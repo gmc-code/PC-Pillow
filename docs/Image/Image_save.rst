@@ -62,3 +62,33 @@ Save as PNG
     with Image.open("shapes/box.jpg") as im:
         new_im.save("shapes/box.png", compress_level=9)
 
+----
+
+Saving gifs
+-----------------
+
+| See : https://pillow.readthedocs.io/en/stable/handbook/image-file-formats.html#gif-saving
+
+| The code below modifies all frames and saves them.
+
+.. code-block:: python
+
+    from PIL import Image, ImageSequence
+
+
+    def addOverlay(frame):
+        im = Image.open('image/ambulance_L.jpg')
+        position = 'bottomRight'
+        coords = {
+            'topLeft': (0, 0),
+            'bottomRight': (frame.width - im.width, frame.height - im.height)
+        }
+        frame.paste(im, coords[position])
+        return frame
+
+    with Image.open("new_gifs/transform_tilt_x.gif") as im_gif:
+        # Run 'addOverlay' on each frame in the image
+        frames = ImageSequence.all_frames(im_gif, addOverlay)
+        # Save the frames as a new image
+        frames[0].save('new_gifs/transform_tilt_x_overlay.gif', save_all=True, append_images=frames[1:])
+

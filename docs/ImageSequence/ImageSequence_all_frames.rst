@@ -26,7 +26,7 @@ All_frames
 
 
     def addOverlay(frame):
-        im = Image.open('image/ambulance_L.jpg')
+        im = Image.open('images/ambulance_L.jpg')
         position = 'bottomRight'
         coords = {
             'topLeft': (0, 0),
@@ -35,8 +35,15 @@ All_frames
         frame.paste(im, coords[position])
         return frame
 
-    with Image.open("new_gifs/transform_tilt_x.gif") as im_gif:
+    with Image.open("gifs/transform_tilt_x.gif") as im_gif:
         # Run 'addOverlay' on each frame in the image
         frames = ImageSequence.all_frames(im_gif, addOverlay)
         # Save the frames as a new image
-        frames[0].save('new_gifs/transform_tilt_x_overlay.gif', save_all=True, append_images=frames[1:])
+        frames[0].save('gifs/transform_tilt_x_overlay.gif', save_all=True, append_images=frames[1:])
+
+
+
+.. image:: gifs/transform_tilt_x_overlay.gif
+    :scale: 50%
+    :align: center
+
