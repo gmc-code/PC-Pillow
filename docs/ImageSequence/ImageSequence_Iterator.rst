@@ -25,10 +25,27 @@ Save each frame
     from PIL import Image, ImageSequence
 
 
-    with Image.open("new_gifs/transform_tilt_x.gif") as im_gif:
+    with Image.open("gifs/transform_tilt_x.gif") as im_gif:
         index = 0
         for frame in ImageSequence.Iterator(im_gif):
-            frame.save(f"image/gifs/gif_frame_is_{index}.png")
+            frame.save(f"images/gif_frame_is_{index}.png")
             index += 1
 
+
+
+.. image:: gifs/transform_tilt_x.gif
+    :scale: 50%
+    :align: center
+
+.. image:: images/gif_frame_is_0.png
+    :scale: 50%
+    :align: center
+
+.. image:: images/gif_frame_is_7.png
+    :scale: 50%
+    :align: center
+
+.. image:: images/gif_frame_is_15.png
+    :scale: 50%
+    :align: center
 
