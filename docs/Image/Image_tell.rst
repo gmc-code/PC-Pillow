@@ -9,7 +9,7 @@ Image tell
 Tell
 ----------------------------
 
-| Use the ``Image.tell()`` method to return the current frame number, satrting at 0, in the sequence file, such as a gif.
+| Use the ``Image.tell()`` method to return the current frame number, starting at 0, in the sequence file, such as a gif.
 
 
 .. code-block:: python
