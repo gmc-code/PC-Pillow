@@ -18,7 +18,7 @@
 # -- Project information -----------------------------------------------------
 
 project = 'PC-Pillow'
-copyright = '2022, GMC'
+copyright = '2022-4, GMC'
 author = 'GMC'
 
 # The full version, including alpha/beta/rc tags
