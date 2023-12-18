@@ -49,7 +49,7 @@ Quantize number of colours
 Quantize by image palette
 ------------------------------
 
-| The code below produces an image converted to P mode with the specified image palette..
+| The code below produces an image converted to P mode with the specified image palette.
 
 
 | The code below.
