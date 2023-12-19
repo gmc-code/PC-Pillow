@@ -20,12 +20,12 @@ PC-Pillow
     :caption: Pillow Image -files
     :numbered:
 
-    Image/Image_introduction.rst
-    Image/Image_open.rst
-    Image/Image_load.rst
-    Image/Image_show.rst
-    Image/Image_save.rst
-    Image/Image_close.rst
+    Image_class/Image_introduction.rst
+    Image_class/Image_open.rst
+    Image_class/Image_load.rst
+    Image_class/Image_show.rst
+    Image_class/Image_save.rst
+    Image_class/Image_close.rst
 
 
 .. toctree::
@@ -33,11 +33,11 @@ PC-Pillow
     :caption: Pillow Image -Constructing images
     :numbered:
 
-    Image/Image_new.rst
-    Image/Image_copy.rst
-    Image/Image_fromarray.rst
-    Image/Image_frombytes.rst
-    Image/Image_frombuffer.rst
+    Image_class/Image_new.rst
+    Image_class/Image_copy.rst
+    Image_class/Image_fromarray.rst
+    Image_class/Image_frombytes.rst
+    Image_class/Image_frombuffer.rst
 
 
 .. toctree::
@@ -45,10 +45,10 @@ PC-Pillow
     :caption: Pillow Image -Generating images
     :numbered:
 
-    Image/Image_effect_mandelbrot.rst
-    Image/Image_effect_noise.rst
-    Image/Image_linear_gradient.rst
-    Image/Image_radial_gradient.rst
+    Image_class/Image_effect_mandelbrot.rst
+    Image_class/Image_effect_noise.rst
+    Image_class/Image_linear_gradient.rst
+    Image_class/Image_radial_gradient.rst
 
 
 .. toctree::
@@ -56,11 +56,11 @@ PC-Pillow
     :caption: Pillow Image -Image processing
     :numbered:
 
-    Image/Image_alpha_composite.rst
-    Image/Image_blend.rst
-    Image/Image_composite.rst
-    Image/Image_eval.rst
-    Image/Image_merge.rst
+    Image_class/Image_alpha_composite.rst
+    Image_class/Image_blend.rst
+    Image_class/Image_composite.rst
+    Image_class/Image_eval.rst
+    Image_class/Image_merge.rst
 
 
 .. toctree::
@@ -68,17 +68,17 @@ PC-Pillow
     :caption: Pillow Image -Information
     :numbered:
 
-    Image/Image_attributes.rst
-    Image/Image_getbands.rst
-    Image/Image_getbbox.rst
-    Image/Image_getcolors.rst
-    Image/Image_entropy.rst
-    Image/Image_getextrema.rst
-    Image/Image_getpalette.rst
-    Image/Image_getpixel.rst
-    Image/Image_getprojection.rst
-    Image/Image_histogram.rst
-    Image/Image_verify.rst
+    Image_class/Image_attributes.rst
+    Image_class/Image_getbands.rst
+    Image_class/Image_getbbox.rst
+    Image_class/Image_getcolors.rst
+    Image_class/Image_entropy.rst
+    Image_class/Image_getextrema.rst
+    Image_class/Image_getpalette.rst
+    Image_class/Image_getpixel.rst
+    Image_class/Image_getprojection.rst
+    Image_class/Image_histogram.rst
+    Image_class/Image_verify.rst
 
 
 .. toctree::
@@ -86,30 +86,30 @@ PC-Pillow
     :caption: Pillow Image
     :numbered:
 
-    Image/Image_apply_transparency.rst
-    Image/Image_convert.rst
-    Image/Image_crop.rst
-    Image/Image_getdata.rst
-    Image/Image_draft.rst
-    Image/Image_effect_spread.rst
-    Image/Image_filter.rst
-    Image/Image_getchannel.rst
-    Image/Image_paste.rst
-    Image/Image_point.rst
-    Image/Image_putalpha.rst
-    Image/Image_putdata.rst
-    Image/Image_putpalette.rst
-    Image/Image_putpixel.rst
-    Image/Image_quantize.rst
-    Image/Image_reduce.rst
-    Image/Image_remap_palette.rst
-    Image/Image_resize.rst
-    Image/Image_rotate.rst
-    Image/Image_split.rst
-    Image/Image_thumbnail.rst
-    Image/Image_tobitmap.rst
-    Image/Image_transform.rst
-    Image/Image_transpose.rst
+    Image_class/Image_apply_transparency.rst
+    Image_class/Image_convert.rst
+    Image_class/Image_crop.rst
+    Image_class/Image_getdata.rst
+    Image_class/Image_draft.rst
+    Image_class/Image_effect_spread.rst
+    Image_class/Image_filter.rst
+    Image_class/Image_getchannel.rst
+    Image_class/Image_paste.rst
+    Image_class/Image_point.rst
+    Image_class/Image_putalpha.rst
+    Image_class/Image_putdata.rst
+    Image_class/Image_putpalette.rst
+    Image_class/Image_putpixel.rst
+    Image_class/Image_quantize.rst
+    Image_class/Image_reduce.rst
+    Image_class/Image_remap_palette.rst
+    Image_class/Image_resize.rst
+    Image_class/Image_rotate.rst
+    Image_class/Image_split.rst
+    Image_class/Image_thumbnail.rst
+    Image_class/Image_tobitmap.rst
+    Image_class/Image_transform.rst
+    Image_class/Image_transpose.rst
 
 
 .. toctree::
@@ -117,9 +117,9 @@ PC-Pillow
     :caption: Pillow gifs
     :numbered:
 
-    Image/Image_seek.rst
-    Image/Image_tell.rst
-    Image/Image_transform_gifs.rst
+    Image_class/Image_seek.rst
+    Image_class/Image_tell.rst
+    Image_class/Image_transform_gifs.rst
     ImageSequence/ImageSequence_Iterator.rst
     ImageSequence/ImageSequence_all_frames.rst
  
